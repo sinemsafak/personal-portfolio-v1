@@ -1,18 +1,15 @@
-
 # Operating system files
 .DS_Store
 Thumbs.db
 Desktop.ini
 
-# Visual Studio Code local workspace settings
+# VS Code workspace settings
 .vscode/
 
-# Temporary files
+# Temporary and backup files
 *.tmp
 *.log
 *.swp
 *.swo
-
-# Backup files
 *.bak
 *~

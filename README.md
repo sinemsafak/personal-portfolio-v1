@@ -1,24 +1,11 @@
+# Sinem Şafak — Kişisel Portfolyo V1
 
-# Personal Portfolio V1
-
-HTML5 ve CSS3 ile geliştirilmiş, mobil öncelikli, responsive ve iki dilli
-kişisel portfolyo web sitesi.
-
-## Özellikler
-
-- Tek sayfalı statik web sitesi
-- Türkçe ve İngilizce içerik
-- CSS Grid ve Flexbox tabanlı düzen
-- Mobil, tablet ve masaüstü ekranlara uyum
-- Anlamsal HTML5
-- Klavye navigasyonu ve görünür odak stilleri
-- Harici JavaScript veya CSS kütüphanesi gerektirmez
-- Backend veya veritabanı gerektirmez
+HTML5 ve CSS3 ile hazırlanmış, mobil öncelikli ve Türkçe/İngilizce içerik sunan statik portfolyo.
 
 ## Dosya yapısı
 
 ```text
-personal-portfolio-v1/
+personal-portfolio-sinem-safak/
 ├── index.html
 ├── README.md
 ├── .gitignore
@@ -26,86 +13,32 @@ personal-portfolio-v1/
     └── styles.css
 ```
 
-## Gereksinimler
+## Çalıştırma
 
-- Visual Studio Code
-- Güncel bir web tarayıcısı
-- İsteğe bağlı: VS Code Live Server eklentisi
-- İsteğe bağlı: Git ve GitHub hesabı
+1. Klasörü VS Code ile açın.
+2. `index.html` dosyasını tarayıcıda açın veya VS Code Live Server kullanın.
+3. Üst bölümdeki Türkçe / English bağlantılarını kullanarak ilgili dil bölümüne gidin.
 
-## Yerel ortamda çalıştırma
-
-1. Proje klasörünü VS Code ile açın.
-2. `index.html` dosyasını bulun.
-3. Dosyayı doğrudan tarayıcıda açın veya Live Server eklentisini kullanın.
-4. Türkçe ve İngilizce içeriklere üstteki dil bağlantılarıyla gidin.
+JavaScript, backend, veritabanı veya harici CSS kütüphanesi kullanılmamıştır.
 
 ## Kişiselleştirme
 
-### Kişisel bilgiler
+- E-posta: `sinemsafak@outlook.com.tr`
+- GitHub: `https://github.com/sinemsafak`
+- LinkedIn: `https://linkedin.com/in/sinemsafak/`
 
-`index.html` dosyasında aşağıdaki örnek değerleri değiştirin:
-
-- `Adınız Soyadınız`
-- `Your Name`
-- `ornek@example.com`
-- GitHub ve LinkedIn profil bağlantıları
-- Hakkımda metinleri ve proje açıklamaları
-
-HTML'deki `lang` değerlerini içerik diline uygun tutun.
-
-### Projeler
-
-Her proje `article.project-card` bileşeni içinde tanımlanır.
-Başlıkları, açıklamaları, teknoloji etiketlerini ve örnek durum metnini
-kendi çalışmalarınıza göre güncelleyin.
-
-Gerçek proje bağlantısı ekleyecekseniz bağlantı metnini açıklayıcı tutun.
-
-### Tasarım
-
-Renkler ve ortak ölçüler `css/styles.css` dosyasının başındaki
-`:root` bölümünde tanımlanmıştır.
-
-Responsive düzenler şu kırılımları kullanır:
-
-- Temel stiller: mobil
-- 600 px ve üzeri: tablet ve geniş ekran düzeni
-- 900 px ve üzeri: masaüstü proje kartları
-- 360 px ve altı: dar ekran düzeltmeleri
-
-## Dil kullanımı
-
-Bu sürümde her iki dil de aynı HTML belgesinde bulunur.
-Dil bağlantıları ilgili bölümün başlangıcına gider; içeriği gizlemez.
-
-Yalnızca CSS ve HTML kullanıldığı için JavaScript tabanlı otomatik
-dil değiştirme veya dil durumunu saklama özelliği yoktur.
-
-## İletişim
-
-E-posta bağlantısı `mailto:` kullanır. GitHub ve LinkedIn bağlantıları
-örnek adreslerdir ve kişisel profil adreslerinizle değiştirilmelidir.
-
-Bu proje bir backend veya mesaj gönderme formu içermez.
+Proje açıklamaları ve deneyim bilgileri CV'deki bilgilere göre özetlenmiştir. Tarihleri, görevleri ve proje açıklamalarını yayınlamadan önce kontrol edin. CV'deki adres, telefon ve referans kişisi bilgileri kişisel gizlilik amacıyla portfolyoya eklenmemiştir.
 
 ## Doğrulama
 
-HTML:
-https://validator.w3.org/
+HTML: https://validator.w3.org/
+CSS: https://jigsaw.w3.org/css-validator/
 
-CSS:
-https://jigsaw.w3.org/css-validator/
+Bu dosyalar oluşturulmuştur; W3C doğrulayıcılarında test edildiği iddia edilmemektedir. Yayınlamadan önce doğrulayıcıları çalıştırın ve varsa raporlanan sorunları düzeltin.
 
-HTML dosyasını HTML doğrulayıcısına yükleyin veya URL üzerinden kontrol edin.
-CSS doğrulayıcısında `css/styles.css` dosyasını seçerek doğrulayın.
+## Önerilen Git commit mesajları
 
-Test sonuçlarını doğrulayıcı raporlarına göre değerlendirin.
-
-## Sürüm
-
-V1.0.0
-
-## Lisans
-
-Kişisel kullanım için hazırlanmış başlangıç projesi.
+- `chore: initialize personal portfolio project`
+- `feat: add bilingual portfolio content based on CV`
+- `feat: style responsive portfolio with CSS Grid and Flexbox`
+- `docs: add setup and validation instructions`
