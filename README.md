@@ -36,9 +36,3 @@ CSS: https://jigsaw.w3.org/css-validator/
 
 Bu dosyalar oluşturulmuştur; W3C doğrulayıcılarında test edildiği iddia edilmemektedir. Yayınlamadan önce doğrulayıcıları çalıştırın ve varsa raporlanan sorunları düzeltin.
 
-## Önerilen Git commit mesajları
-
-- `chore: initialize personal portfolio project`
-- `feat: add bilingual portfolio content based on CV`
-- `feat: style responsive portfolio with CSS Grid and Flexbox`
-- `docs: add setup and validation instructions`
