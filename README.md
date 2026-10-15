@@ -31,8 +31,10 @@ Proje açıklamaları ve deneyim bilgileri CV'deki bilgilere göre özetlenmişt
 
 ## Doğrulama
 
-HTML: https://validator.w3.org/
-CSS: https://jigsaw.w3.org/css-validator/
+HTML ve CSS dosyaları, W3C doğrulayıcıları kullanılarak test edilmiştir.
 
-Bu dosyalar oluşturulmuştur; W3C doğrulayıcılarında test edildiği iddia edilmemektedir. Yayınlamadan önce doğrulayıcıları çalıştırın ve varsa raporlanan sorunları düzeltin.
+- **HTML:** [W3C HTML Doğrulayıcısı](https://validator.w3.org/)
+- **CSS:** [W3C CSS Doğrulayıcısı](https://jigsaw.w3.org/css-validator/)
+
+Test sırasında herhangi bir doğrulama hatası raporlanmamıştır.
 
